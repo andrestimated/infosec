@@ -96,22 +96,30 @@
                 "height": 100
               },
               "position": {
-                "x": 350,
+                "x": 354,
                 "y": 380
               },
               "angle": 0,
               "id": "ee0bda9c-3b33-4883-bf22-a88a13c5cfdd",
               "z": 4,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Cross Site Scripting (XSS)",
+                  "type": "Information disclosure"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Tax Web\nApplication"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -122,22 +130,31 @@
                 "height": 80
               },
               "position": {
-                "x": 320,
-                "y": 780
+                "x": 324,
+                "y": 781
               },
               "angle": 0,
               "id": "238c87fb-fcae-41a4-b903-aa863126ae82",
               "z": 5,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "SQL Injection",
+                  "type": "Information disclosure"
+                }
+              ],
+              "isALog": true,
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Database"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -406,6 +423,8 @@
               ],
               "z": 18,
               "hasOpenThreats": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -474,6 +493,8 @@
               ],
               "z": 20,
               "hasOpenThreats": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -1015,6 +1036,8 @@
               ],
               "z": 36,
               "hasOpenThreats": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
